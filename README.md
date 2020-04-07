@@ -53,6 +53,8 @@ python3 -m pacai.bin.pacman --layout bigSearch --pacman ClosestDotSearchAgent
 
 # Part 2
 
+Code written in multiagents.py
+
 # Reflex Agent
 
 python3 -m pacai.bin.pacman --pacman ReflexAgent --layout testClassic
@@ -82,6 +84,8 @@ python3 -m pacai.bin.pacman --pacman ExpectimaxAgent --layout trappedClassic --a
 python3 -m pacai.bin.pacman --layout smallClassic --pacman ExpectimaxAgent --agent-args evalFn=pacai.student.multiagents.betterEvaluationFunction --null-graphics --num-games 10
 
 # Part 3
+
+Code written in qLearningAgents.py, valueIterations.py and analysis.py
 
 # Value Iterations
 
